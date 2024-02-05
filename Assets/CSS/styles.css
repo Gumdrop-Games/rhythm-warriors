@@ -129,18 +129,18 @@ nav ul li {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    color: white;
+    color: black;
 }
 
 .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: white;
+    color: black;
 }
 
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
-    color: white;
+    color: black;
 }
 
 /* Team Section */
