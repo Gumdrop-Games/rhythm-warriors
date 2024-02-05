@@ -188,7 +188,8 @@ nav ul li {
 }
 
 .media-header {
-    text-align: center;
+    text-align: center; /* Center the text */
+    color: var(--primary-color); /* Add your preferred text color */
     margin-bottom: 1rem;
 }
 
