@@ -181,44 +181,15 @@ nav ul li {
 }
 
 /* Media Section */
-.projects {
+.media {
     background-color: #000000;
     padding: 2rem 0;
     margin-top: 2rem;
 }
 
-.project-pic {
-    width: 65%;
-    height: 60%;
-}
-
-.projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.projects-title {
+.media-header {
     text-align: center;
     margin-bottom: 1rem;
-}
-
-.project-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
-}
-
-.project-container p {
-    padding: 0.4rem;
-}
-
-.project-title {
-    margin-bottom: var(--bottom-margin);
-}
-
-.project-details {
-    margin-bottom: var(--bottom-margin);
 }
 
 /* Social accounts - Fixed to the right */
