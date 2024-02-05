@@ -134,13 +134,13 @@ nav ul li {
 
 .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: black;
+    color: white;
 }
 
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
-    color: black;
+    color: white;
 }
 
 /* Team Section */
