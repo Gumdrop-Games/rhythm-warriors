@@ -45,8 +45,8 @@ a:hover {
 
 body {
     font-family: var(--font-family);
-    color: black;
-    background-color: #ffffff;
+    color: white;
+    background-color: #000000;
 }
 
 h2, h3 {
@@ -54,11 +54,11 @@ h2, h3 {
 }
 
 section {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 div {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 /* Navbar */
