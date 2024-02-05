@@ -71,7 +71,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--primary-shadow);
+    background-color: #000000;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -145,7 +145,7 @@ nav ul li {
 
 /* Team Section */
 .more-about {
-    background-color: var(--bg-color);
+    background-color: #000000;
     padding: 1rem 3.5rem;
 }
 
@@ -182,7 +182,7 @@ nav ul li {
 
 /* Media Section */
 .projects {
-    background-color: var(--bg-color);
+    background-color: #000000;
     padding: 2rem 0;
     margin-top: 2rem;
 }
@@ -250,7 +250,7 @@ nav ul li {
 
 /* Footer section */
 footer {
-    background-color: var(--bg-color);
+    background-color: #000000;
     padding: 1.25rem;
     text-align: center;
     margin: 2rem 0 0;
@@ -281,7 +281,7 @@ footer {
 
     nav ul {
         position: absolute;
-        background-color: var(--bg-color);
+        background-color: #000000;
         flex-direction: column;
         top: 100%;
         left: 0;
