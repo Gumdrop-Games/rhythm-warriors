@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RHYTHM WARRIORS: TIME WARP</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="Assets/CSS/styles.css" />
+
+    <!-- FavIcons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/Icons/" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/Icons/" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.CSS/4.1.1/animate.min.css" />
+    <title>CS 426 Senior Project - Spring 2023</title>
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>CS 426 Senior Project - Spring 2023</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#project" class="nav-link">Project</a></li>
+            <li><a href="#resources" class="nav-link">Resources</a></li>
+            <li><a href="#media" class="nav-link">Media</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
 
-    <header>
-        <h1>CS 426 Senior Project in Computer Science</h1>
-        <p>Spring 2023, UNR, CSE Department</p>
-    </header>
-
-    <section>
-        <h2>Team Information:</h2>
-        <p>Team Number 25</p>
-        <p>Gumdrop Games</p>
-        <p>Randall Fernandez, Jamie Lee, Julianne Maghirang</p>
+    <!-- About Section -->
+    <section class="hero" id="about">
+        <img src="Assets/Images/" alt="code" loading="lazy" class="hero-img" />
+        <div class="bio animate__animated animate__shakeX">
+            <center>
+                <h2 class="bio-title">About the Project</h2>
+            </center>
+            <center>
+                <p class="bio-text">
+                    CS 426 Senior Project in Computer Science, Spring 2023, at UNR, CSE Department.
+                </p>
+                <p class="bio-text">
+                    Team Number: 25<br />
+                    Team Name: Gumdrop Games<br />
+                    Team Members: Randall Fernandez, Jamie Lee, Julianne Maghirang
+                </p>
+                <p class="bio-text">
+                    Instructors: Sara Davis, David Feil-Seifer, Devrin Lee <br />
+                    External Advisor(s): Alireza Tavakkoli, CSE Associate Professor of Computer Science
+                </p>
+            </center>
+        </div>
     </section>
 
-    <section>
-        <h2>Instructors & External Advisors:</h2>
-        <p>Instructors: Sara Davis, David Feil-Seifer, Devrin Lee</p>
-        <p>External Advisor(s): Alireza Tavakkoli - Affiliation: CSE Department Associate Professor</p>
+    <!-- Project Section -->
+    <section class="more-about" id="project">
+        <h2 class="bio-title">Project Description</h2>
+        <center>
+            <p class="bio-text">
+                [Project description here.]
+            </p>
+        </center>
     </section>
 
-    <section>
-        <h2>Project Description</h2>
-        <p>[200-400 words project description goes here]</p>
+    <!-- Resources Section -->
+    <section class="skills" id="resources">
+        <h2 class="skill-header">Project Resources</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <p class="bio-text">
+                    <strong>Problem Domain Book:</strong> [Title of the Book]<br />
+                    <strong>Websites:</strong> [List of Useful/Related Websites]<br />
+                    <strong>Technical Reports, Conference Papers, and/or Journal Articles:</strong> [List of Documents]<br />
+                    <strong>News and Other Information:</strong> [News and Information Sources]
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Project Resources</h2>
-        <h3>Problem Domain Book</h3>
-        <p>[Link or citation to the problem domain book]</p>
-
-        <h3>Websites</h3>
-        <p>[List of useful/related websites]</p>
-
-        <h3>Technical Reports, Conference Papers, and/or Journal Articles</h3>
-        <p>[List of technical resources]</p>
-
-        <h3>News and Information</h3>
-        <p>[Links or information related to project topic]</p>
+    <!-- Media Section -->
+    <section class="projects" id="media">
+        <!-- Add video attachment, poster, assignments, etc. here -->
     </section>
 
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+        <!-- Add media links or other relevant links here -->
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"><img src="Assets/Icons/" class="socicon up-arrow" alt="" /></i>
+
+    <!-- Footer section -->
     <footer>
-        <p>© Copyright 2024</p>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+            Built with &#x2661; by [Your Team Name]
+        </p>
     </footer>
 
+    <!-- Website scripts -->
+    <script src="Assets/JS/app.js"></script>
+
+    <!-- Ion Icons scripts -->
+    <script type="module" src="https://unpkg.com/ionIcons@5.5.2/dist/ionIcons/ionIcons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionIcons@5.5.2/dist/ionIcons/ionIcons.js"></script>
 </body>
+
 </html>
