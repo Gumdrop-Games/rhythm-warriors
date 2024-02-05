@@ -6,10 +6,10 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #121212;
-    --primary-color: #BB85FC;
-    --secondary-color: #ffd79b;
-    --primary-shadow: #ffb199;
+    --bg-color: #ffffff;
+    --primary-color: #ff8585;
+    --secondary-color: #ffb8b8;
+    --primary-shadow: #1F1B24;
     --secondary-shadow: #1F1B24;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -45,8 +45,8 @@ a:hover {
 
 body {
     font-family: var(--font-family);
-    color: white;
-    background-color: #121212;
+    color: black;
+    background-color: #ffffff;
 }
 
 h2, h3 {
@@ -54,11 +54,11 @@ h2, h3 {
 }
 
 section {
-    background-color: #121212;
+    background-color: #ffffff;
 }
 
 div {
-    background-color: #121212;
+    background-color: #ffffff;
 }
 
 /* Navbar */
