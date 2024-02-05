@@ -160,18 +160,18 @@ nav ul li {
 }
 
 /* Resources Section */
-.skills {
+.resources {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
 }
 
-.skill-header {
+.resources-header {
     margin-bottom: 1rem;
 }
 
-.skills-wrapper img {
+.resources-wrapper img {
     padding: 1.25rem;
 }
 
