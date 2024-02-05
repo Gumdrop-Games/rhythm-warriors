@@ -2,15 +2,15 @@
 
 /* Variables */
 :root {
-    --font-family: "Roboto", sans-serf;
+    --font-family: "Roboto", sans-serif;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #ffb199;
-    --primary-color: #000000;
-    --secondary-color: #000000;
-    --primary-shadow: #ffd79b;
-    --secondary-shadow: #ff8585;
+    --bg-color: #121212;
+    --primary-color: #BB85FC;
+    --secondary-color: #03DAC5;
+    --primary-shadow: #1F1B24;
+    --secondary-shadow: #1F1B24;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -28,7 +28,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
 }
 
 ul {
@@ -46,11 +45,11 @@ a:hover {
 
 body {
     font-family: var(--font-family);
-    color: black;
+    color: white;
     background-color: #121212;
 }
 
-h2,h3 {
+h2, h3 {
     color: var(--primary-color);
 }
 
@@ -61,7 +60,6 @@ section {
 div {
     background-color: #121212;
 }
-/* CSS Resets end */
 
 /* Navbar */
 nav {
@@ -109,29 +107,7 @@ nav ul li {
     display: none;
 }
 
-/* Active link styling in the navbar */
-nav ul li.active {
-    border-bottom: 2px solid var(--secondary-color);
-}
-
-/* Add a smooth transition effect to the navbar links */
-nav a {
-    transition: color var(--transition);
-}
-
-/* Hover effect for project cards */
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
-/* Hover effect for social icons */
-.socials a:hover {
-    transform: scale(1.1);
-}
-
-/* Navbar ends */
-
-/* Hero section */
+/* About Section */
 .hero {
     display: flex;
     align-items: center;
@@ -139,17 +115,17 @@ nav a {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
-    color:#121212;
 }
 
 .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: auto;
+    max-width: 100%;
     color: var(--primary-color);
 }
 
 .bio {
-    width: 25rem;
+    width: 100%;
+    max-width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -167,12 +143,10 @@ nav a {
     color: white;
 }
 
-/* Hero section ends */
-
-/* More about */
+/* Team Section */
 .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 1rem 3.5rem;
 }
 
 .more-about h2 {
@@ -185,9 +159,7 @@ nav a {
     padding: 0.4rem;
 }
 
-/* More about ends */
-
-/* Skills section */
+/* Resources Section */
 .skills {
     max-width: 68.75rem;
     margin: auto;
@@ -208,12 +180,10 @@ nav a {
     height: 11.25rem;
 }
 
-/* Skills section ends */
-
-/* Projects section */
+/* Media Section */
 .projects {
     background-color: var(--bg-color);
-    padding: 32px 0;
+    padding: 2rem 0;
     margin-top: 2rem;
 }
 
@@ -251,15 +221,13 @@ nav a {
     margin-bottom: var(--bottom-margin);
 }
 
-/* Projects section ends */
-
-/* Social buttons */
+/* Social accounts - Fixed to the right */
 .socials {
     display: flex;
     flex-direction: column;
     position: fixed;
     right: 1%;
-    bottom: 50%;
+    bottom: 2%; /* Adjusted for better visibility */
 }
 
 .socicon {
@@ -267,13 +235,11 @@ nav a {
     height: 2rem;
 }
 
-/* Social button ends */
-
 /* Scroll to top button */
 .scroll-up {
     position: fixed;
     right: 0.5%;
-    bottom: 3%;
+    bottom: 2%; /* Adjusted for better visibility */
     cursor: pointer;
 }
 
@@ -282,8 +248,6 @@ nav a {
     height: 3rem;
 }
 
-/* Scroll to top button ends */
-
 /* Footer section */
 footer {
     background-color: var(--bg-color);
@@ -291,8 +255,6 @@ footer {
     text-align: center;
     margin: 2rem 0 0;
 }
-
-/* Footer section ends */
 
 /* General (utilities) */
 .icon-card {
@@ -318,12 +280,12 @@ footer {
     }
 
     nav ul {
-        position: fixed;
+        position: absolute;
         background-color: var(--bg-color);
         flex-direction: column;
-        top: 86px;
-        left: 10%;
-        width: 80%;
+        top: 100%;
+        left: 0;
+        width: 100%;
         text-align: center;
         transform: translateX(120%);
         transition: transform 0.5s ease-in;
@@ -342,67 +304,33 @@ footer {
     }
 
     .hero {
-        margin-top: -4rem;
-        flex-direction: column;
         gap: 0;
     }
 
     .hero img {
-        height: 37.5rem;
-        width: 30rem;
+        height: auto;
+        max-width: 100%;
     }
 
     .bio {
-        margin-top: -7rem;
-        width: 20.5rem;
+        margin-top: 0;
+        width: 100%;
     }
 
     .more-about {
         margin-top: 2rem;
-        padding: 1rem 3.5rem;
-    }
-
-    .more-about h2 {
-        text-align: center;
-    }
-
-    .more-about p {
-        text-align: justify;
-    }
-
-    .icon {
-        width: 5.875rem;
-        height: 5.25rem;
-    }
-
-    .projects-container {
-        flex-direction: column;
-    }
-
-    .project-container {
-        width: 20.875rem;
-    }
-
-    .contact-form-container {
-        max-width: 23.75rem;
+        padding: 1rem 1.5rem;
     }
 }
 
 @media screen and (max-width: 420px) {
     .hero img {
-        height: 37.5rem;
-        width: 23rem;
+        height: auto;
+        max-width: 100%;
     }
 
     .bio {
-        width: 18.3rem;
-    }
-
-    .project-container {
-        width: 17.875rem;
-    }
-
-    .contact-form-container {
-        max-width: 17.75rem;
+        width: 100%;
+        margin-top: 0;
     }
 }
