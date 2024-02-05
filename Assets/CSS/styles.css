@@ -113,34 +113,34 @@ nav ul li {
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    max-width: 75%;
+    max-width: 90%;
     margin: auto;
 }
 
 .hero img {
     height: auto;
     max-width: 100%;
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 .bio {
     width: 100%;
-    max-width: 25rem;
+    max-width: 40rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
-    color: var(--primary-color);
+    color: #ffffff;
 }
 
 /* Team Section */
@@ -185,11 +185,15 @@ nav ul li {
     background-color: #000000;
     padding: 2rem 0;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .media-header {
-    text-align: center; /* Center the text */
-    color: var(--primary-color); /* Add your preferred text color */
+    text-align: center;
+    color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
