@@ -113,7 +113,7 @@ nav ul li {
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    max-width: 100%; /* Updated to 100% */
+    max-width: 75%;
     margin: auto;
 }
 
@@ -124,23 +124,23 @@ nav ul li {
 }
 
 .bio {
-    width: 100%; /* Updated to 100% */
-    max-width: 100%; /* Updated to 100% */
+    width: 100%;
+    max-width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    color: white;
+    color: var(--primary-color);
 }
 
 .bio h1 {
     margin-bottom: var(--bottom-margin);
-    color: white;
+    color: var(--primary-color);
 }
 
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
-    color: white;
+    color: var(--primary-color);
 }
 
 /* Team Section */
