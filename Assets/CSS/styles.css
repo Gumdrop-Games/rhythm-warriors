@@ -180,12 +180,8 @@ nav ul li {
 .resources {
     max-width: 90%;
     margin: auto;
-    text-align: center;
     margin-top: 2.5rem;
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .resources-header {
@@ -195,11 +191,11 @@ nav ul li {
 .resource-list {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 .resource-list li {
     margin-bottom: 1rem;
-    text-align: left;
 }
 
 /* Social accounts - Fixed to the right */
